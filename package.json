@@ -1,0 +1,19 @@
+{
+  "name": "opencart-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsdom": "^26.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "puppeteer": "^24.10.0"
+  }
+}
